@@ -202,6 +202,9 @@ export const sfc32 = (a: number, b: number, c: number, d: number) => {
   };
 };
 
+/**
+ * Clusters data using K-Means++ algorithm.
+ */
 export const kMeans = <T>(
   data: readonly T[],
   options?: Partial<KMeansParameters<T>> & {
