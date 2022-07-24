@@ -1,4 +1,4 @@
-<a href="https://deno.land/x/denopack"><img src="https://img.shields.io/badge/Available%20on-deno.land/x-teal.svg?style=flat&logo=deno&labelColor=black" /></a>
+<a href="https://deno.land/x/k_means_pp"><img src="https://img.shields.io/badge/Available%20on-deno.land/x-teal.svg?style=flat&logo=deno&labelColor=black" /></a>
 
 # k_means_pp
 
@@ -12,7 +12,7 @@ import {
   getVectorCentroid,
   kMeans,
   sfc32,
-} from "https://deno.land/x/k_means_pp@0.1.0/mod.ts";
+} from "https://deno.land/x/k_means_pp@0.1.1/mod.ts";
 
 kMeans([
   [-10, 5, 100],
